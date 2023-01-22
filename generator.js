@@ -10,3 +10,9 @@ document.getElementById("generate").addEventListener("click", () => {
     document.getElementById("output").hidden = false
     document.getElementById("output").textContent = password
 })
+
+function calculateProbability() {
+    document.getElementById("probability").innerHTML = "Probability<br>" +  document.getElementById("chars").value.length + "^" + document.getElementById("amount").value
+}
+
+setInterval(calculateProbability, 500)

@@ -1,0 +1,18 @@
+* {
+    background-color: gray;
+    color: white;
+}
+textarea {
+    background-color: #4d4d4d;
+    border: none;
+    resize: none;
+}
+button {
+    border: none;
+    background-color: #4d4d4d;
+    border-radius: 7px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #333333;
+}

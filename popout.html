@@ -2,26 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <style>
-        * {
-            background-color: gray;
-            color: white;
-        }
-        textarea {
-            background-color: #4d4d4d;
-            border: none;
-            resize: none;
-        }
-        button {
-            border: none;
-            background-color: #4d4d4d;
-            border-radius: 7px;
-            cursor: pointer;
-        }
-        button:hover{
-            background-color: #333333;
-        }
-    </style>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body style="text-align: center;">
 <h1>Password Generator</h1>
@@ -32,8 +13,7 @@
 <br>
 <br>
 <p id="output" style="border: solid black 1px; font-size: 15px; background-color: #4d4d4d"></p>
-<br>
-<br>
+<p id="probability"></p>
 <button id="generate" style="font-size: 25px;">Generate</button>
 <script type="text/javascript" src="generator.js"></script>
 </body>
