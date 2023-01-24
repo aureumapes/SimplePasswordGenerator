@@ -12,7 +12,7 @@ document.getElementById("generate").addEventListener("click", () => {
 })
 
 function calculateProbability() {
-    document.getElementById("probability").innerHTML = "Probability<br>" +  document.getElementById("chars").value.length + "^" + document.getElementById("amount").value
+    document.getElementById("probability").innerHTML = "Maximum attempts needed to guess the password<br>" +  document.getElementById("chars").value.length + "^" + document.getElementById("amount").value
 }
 
 setInterval(calculateProbability, 500)
